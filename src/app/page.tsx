@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FaLinkedin } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import { FaGithub } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -24,6 +25,13 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <span className="flex flex-row items-center gap-1"><FaLinkedin/> LinkedIn</span>
+              </a>
+              <a
+                href="https://github.com/cleoreyes"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="flex flex-row items-center gap-1"><FaGithub/> GitHub</span>
               </a>
             </div>
           </div>
