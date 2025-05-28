@@ -24,6 +24,21 @@ export default function Home() {
             />
           </div>
         </div>
+
+        <div>
+          <h1>Coursework</h1>
+          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-8">
+            <ul className="list-disc list-inside space-y-1">
+              <li>CSE 373: Data Structures and Algorithms</li>
+              <li>CSE 417: Algorithms and Computational Complexity</li>
+              <li>CSE 414: Introduction to Database Systems</li>
+              <li>CSE 415: Introduction to Artifical Intelligence</li>
+              <li>CSE 410: Programming Languages and Compilers</li>
+              <li>CSE 374: Intermediate Programming Concepts and Tools</li>
+              <li>CSE 461: Introduction to Computer Networks</li>
+            </ul>
+          </div>
+        </div>
         
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
