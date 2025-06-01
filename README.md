@@ -2,7 +2,10 @@
 
 Live project link: https://www.cleoreyes.me/
 
+## Notes on Development
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Hosted using Vercel for deployment and Namecheap for Top-level domain and certification for encryption.
 
 ## Replication Details
 
