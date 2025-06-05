@@ -7,35 +7,41 @@ export default function Home() {
   return (
     <div className="min-h-screen flex items-center mx-auto w-3/4">
       <main className="flex flex-col items-center sm:items-start">
-        <div className="flex flex-col sm:flex-row items-center sm:items-start gap-8">
-          <div className="w-full">
+        <div className="flex flex-col sm:flex-row items-start gap-8 w-full">
+          <div className="w-full sm:w-1/4">
             <Image
               src="https://media.licdn.com/dms/image/v2/D5603AQFLCUblM1vkKQ/profile-displayphoto-shrink_400_400/B56ZYzW9fYHoAo-/0/1744618379910?e=1753920000&v=beta&t=R8V6opQTy6Z6aW3q3bjP7T2gbfT5hvjEecGpWIKSDJI"
               alt="Cleo Reyes"
-              width={1500}
-              height={2000}
+              width={1000}
+              height={1500}
               className="rounded-sm w-full h-auto object-cover aspect-[4/5] max-w-none"
             />
             <div className="pt-5 text-sm">
               <h1 className="font-bold">Contact Info</h1>
-              <span className="flex flex-row items-center gap-1"><MdEmail/> creyes25@uw.edu</span>
+              <span className="flex flex-row items-center gap-1">
+                <MdEmail /> creyes25@uw.edu
+              </span>
               <a
                 href="https://www.linkedin.com/in/cleoreyes/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="flex flex-row items-center gap-1"><FaLinkedin/> LinkedIn</span>
+                <span className="flex flex-row items-center gap-1">
+                  <FaLinkedin /> LinkedIn
+                </span>
               </a>
               <a
                 href="https://github.com/cleoreyes"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="flex flex-row items-center gap-1"><FaGithub/> GitHub</span>
+                <span className="flex flex-row items-center gap-1">
+                  <FaGithub /> GitHub
+                </span>
               </a>
             </div>
           </div>
-          <div className="flex flex-col items-center sm:items-start gap-10">
+          <div className="flex flex-col items-start gap-10 sm:w-2/3 sm:border-l sm:border-gray-300 sm:pl-6">
             <div className="flex flex-col sm:flex-row items-center sm:items-start gap-8">
               <div className="flex flex-col gap-2 text-sm">
                 <h1 className="text-2xl">Hey, my name is Cleo Reyes.</h1>
@@ -87,10 +93,10 @@ export default function Home() {
                   where I worked in the Application development team,
                   spearheading the implementation and improvement of
                   accessibility for web applications for scientists and
-                  researchers. I also worked on the development of features
-                  that allows scientists to visualize and analyze large
-                  datasets. Additionally, I was an Undergraduate Research
-                  Assistant at the University of Washington{" "}
+                  researchers. I also worked on the development of features that
+                  allows scientists to visualize and analyze large datasets.
+                  Additionally, I was an Undergraduate Research Assistant at the
+                  University of Washington{" "}
                   <a
                     href="https://faculty.washington.edu/ajko/lab"
                     className="italic hover:underline text-gray-800"
@@ -139,10 +145,14 @@ export default function Home() {
                   >
                     MESH
                   </a>
-                  , developing professional public-facing websites for registered student organizations at UW. I also serve as a Research Assistant at DAIS, working on the &quot;iCare&quot; project, an AI-driven chatbot initiative under Dr. Dong Si.
+                  , developing professional public-facing websites for
+                  registered student organizations at UW. I also serve as a
+                  Research Assistant at DAIS, working on the &quot;iCare&quot;
+                  project, an AI-driven chatbot initiative under Dr. Dong Si.
                 </p>
                 <p className="font-medium text-gray-800">
-                  I will be joining Amazon Web Services as a Software Development Engineer Intern in the Summer of 2025.
+                  I will be joining Amazon Web Services as a Software
+                  Development Engineer Intern in the Summer of 2025.
                 </p>
               </div>
             </div>

@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Header() {
   const socialLinks = [
-    { name: 'Email', path: 'mailto:cleoreyes@uw.edu' },
-    { name: 'LinkedIn', path: 'https://linkedin.com/in/cleoreyes' },
-    { name: 'GitHub', path: 'https://github.com/cleoreyes' },
+    { name: "Email", path: "mailto:cleoreyes@uw.edu" },
+    { name: "LinkedIn", path: "https://linkedin.com/in/cleoreyes" },
+    { name: "GitHub", path: "https://github.com/cleoreyes" },
   ];
 
   return (
@@ -35,4 +35,4 @@ export default function Header() {
       </div>
     </header>
   );
-} 
+}
